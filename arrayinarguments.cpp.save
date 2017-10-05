@@ -1,0 +1,20 @@
+
+#include "TXLib.h"
+
+int main()
+    {
+    int gjogjja [7] = {1,3,5,7,6,4,2}
+
+    int res = compare2ars (gjogjja, sizearr(gjogjja), {1,2,3,4,5});
+
+    return 0;
+    }
+
+//-----------------------------------------------------------------------------
+int compare2ars (int ar1 [], size_t sz1, std::initializer_list<int> ar2)
+    {
+    if (sz1 != sizearr(ar2)) return -1;
+    
+    for
+
+    }

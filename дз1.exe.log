@@ -1,0 +1,88 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\дз1.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\дз1.cpp, строка: 57, функция: void FillThatShit(char*, size_t),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: CMdRe0, Thread: 0x620 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426E28 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\дз1.exe: FillThatShit() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/дз1.cpp (57):
+
+     55:         else if (array[t] == 2) array[t] = 3;
+     56:         else if (array[t] == 3) array[t] = 1;
+=>   57:         else assert(0);
+     58:         }
+     59:     }
+
+# 1 0x00426A41 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\дз1.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/дз1.cpp (14):
+
+     12:     char array [30] = {};
+     13: 
+=>   14:     FillThatShit (array, sizearr(array));
+     15:     PrintfArray  (array, sizearr(array));
+     16: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	May 28 2017 21:39:19, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 28 2017 21:39:23
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\дз1.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\дз1.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\дз1.cpp, строка: 54, функция: void FillThatShit(char*, size_t),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "t+1 < size".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: CMdRe0, Thread: 0x13F0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426DDD in C:\Users\Тимофей\Desktop\информатика\алгоритмика\дз1.exe: FillThatShit() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/дз1.cpp (54):
+
+     52:         {
+     53:         assert (t < size);
+=>   54:         assert (t+1 < size);
+     55:              if (array[t] == 1) array[t+1] = 2;
+     56:         else if (array[t] == 2) array[t+1] = 3;
+
+# 1 0x00426A41 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\дз1.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/дз1.cpp (14):
+
+     12:     char array [30] = {};
+     13: 
+=>   14:     FillThatShit (array, sizearr(array));
+     15:     PrintfArray  (array, sizearr(array));
+     16: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	May 28 2017 21:42:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	May 28 2017 21:42:24
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\дз1.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------

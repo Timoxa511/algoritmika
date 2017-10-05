@@ -1,0 +1,25 @@
+1)123 123 123 123...
+2)1232 1232 123...
+3)123321 123321 123321...
+
+
+
+fill (ar, size, _3akoHoMePHoctb_)
+    for (mishura)
+    ar[i] = _3akoHoMePHoctb_
+
+
+
+
+
+fill (ar, sz, 123321)
+
+
+fill (ar, sz, "123321")
+
+
+fill (ar, sz, 1,2,3,3,2,1)
+
+
+
+fill (ar, sz, {1,2,3,3,2,1})

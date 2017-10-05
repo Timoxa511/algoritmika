@@ -1,0 +1,1144 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 27, функция: void bubble_sortir(int*, size_t),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 < i-1 && i-1 < sz".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0xA30 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426B54 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: bubble_sortir() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (27):
+
+     25:             {
+     26:             assert (0 < i && i < sz);
+=>   27:             assert (0 < i-1 && i-1 < sz);
+     28:             if (ar[i-1] > ar[i])
+     29:                 {
+
+# 1 0x00426A3B in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (15):
+
+     13:     $(licaped);
+     14:     $n;$n;
+=>   15:     bubble_sortir(licaped, sizearr(licaped)) ;
+     16: 
+     17:     $(licaped);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jul  3 2017 22:00:07, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 03 2017 22:00:13
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 28, функция: void bubble_sortir(int*, size_t),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 < i && i < sz".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0xAEC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A37 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: bubble_sortir() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (28):
+
+     26:             {
+     27:             ya_$_$_$_ya_vovce_ne_medved (ar , sz);
+=>   28:             assert (0 < i && i < sz);
+     29:             assert (0 <= i-1 && i-1 < sz);
+     30:             if (ar[i-1] > ar[i])
+
+# 1 0x004269BB in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (16):
+
+     14:     //$(licaped);
+     15:     //$n;$n;
+=>   16:     bubble_sortir(licaped, sizearr(licaped)) ;
+     17: 
+     18:     //$(licaped);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jul  3 2017 22:37:26, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 03 2017 22:37:33
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 51, функция: void super_bubble_sortir(int*, size_t),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 < i && i < sz".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0xF9C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426ACD in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: super_bubble_sortir() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (51):
+
+     49:             {
+     50:             ya_$_$_$_ya_vovce_ne_medved (ar , sz);
+=>   51:             assert (0 < i && i < sz);
+     52:             assert (0 <= i-1 && i-1 < sz);
+     53:             if (ar[i-1] > ar[i])
+
+# 1 0x004269BB in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (17):
+
+     15:     //$(licaped);
+     16:     //$n;$n;
+=>   17:     super_bubble_sortir(licaped, sizearr(licaped)) ;
+     18: 
+     19:     //$(licaped);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jul  6 2017 20:46:49, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 06 2017 20:46:55
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 280, функция: void sort_vstavkoy(int*, size_t),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "i > 0".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x1328 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00427328 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (280):
+
+    278:         {
+    279:         i--;
+=>  280:         assert(i > 0);
+    281:         ar[i+1] = ar[i];
+    282:         }
+
+# 1 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39:     $(licaped);
+     40:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jul 30 2017 22:36:20, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 30 2017 22:36:25
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 279, функция: void sort_vstavkoy(int*, size_t),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "i > 0".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x17B4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00427324 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (279):
+
+    277:     for (int i = sz-2; i >= 0; i--)
+    278:         {
+=>  279:         assert(i > 0);
+    280:         ar[i+1] = ar[i];
+    281:         }
+
+# 1 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39:     $(licaped);
+     40:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jul 30 2017 22:46:54, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 30 2017 22:46:59
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00426F61 в функции ya_$_$_$_ya_vovce_ne_medved() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp на строке 114. Попытка прочесть данные по адресу 0x00294000. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x1518 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426F61 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: ya_$_$_$_ya_vovce_ne_medved() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (114):
+
+    112:     for (size_t i = 0; i < sz; i++)
+    113:         {
+=>  114:         printf ("ar[%2d] = %5d, ",i, ar[i]);
+    115:         }
+    116: 
+
+# 1 0x004274EE in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: Zdvig() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (285):
+
+    283: 
+    284: $n;
+=>  285:     ya_$_$_$_ya_vovce_ne_medved ( ar, sz);
+    286:     }
+    287: 
+
+# 2 0x00427361 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: findTheRightPlaceForTheIntInArrayAndPlaceTheIntInThisPlace() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (260):
+
+    258:             {
+    259:             printf("place is found i = %d\n\n", i);
+=>  260:             Zdvig( &(ar[i]) , arn - i);
+    261:             return;
+    262:             }
+
+# 3 0x004272F6 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (244):
+
+    242:         {
+    243:         printf("finding place for ar[%d]\n\n", i);
+=>  244:         findTheRightPlaceForTheIntInArrayAndPlaceTheIntInThisPlace (i, ar[i], ar, sz);
+    245:         }
+    246: 
+
+# 4 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39:     $(licaped);
+     40:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jul 30 2017 22:48:38, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 30 2017 22:48:44
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00426F61 в функции ya_$_$_$_ya_vovce_ne_medved() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp на строке 114. Попытка прочесть данные по адресу 0x00294000. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x1518 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426F61 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: ya_$_$_$_ya_vovce_ne_medved() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (114):
+
+    112:     for (size_t i = 0; i < sz; i++)
+    113:         {
+=>  114:         printf ("ar[%2d] = %5d, ",i, ar[i]);
+    115:         }
+    116: 
+
+# 1 0x004274EE in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: Zdvig() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (285):
+
+    283: 
+    284: $n;
+=>  285:     ya_$_$_$_ya_vovce_ne_medved ( ar, sz);
+    286:     }
+    287: 
+
+# 2 0x00427361 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: findTheRightPlaceForTheIntInArrayAndPlaceTheIntInThisPlace() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (260):
+
+    258:             {
+    259:             printf("place is found i = %d\n\n", i);
+=>  260:             Zdvig( &(ar[i]) , arn - i);
+    261:             return;
+    262:             }
+
+# 3 0x004272F6 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (244):
+
+    242:         {
+    243:         printf("finding place for ar[%d]\n\n", i);
+=>  244:         findTheRightPlaceForTheIntInArrayAndPlaceTheIntInThisPlace (i, ar[i], ar, sz);
+    245:         }
+    246: 
+
+# 4 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39:     $(licaped);
+     40:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jul 30 2017 22:48:38, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jul 30 2017 22:48:43
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 273, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0xD50 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004274BD in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (273):
+
+    271:         }
+    272:     printf ("not found, ledge = %d", ledge);
+=>  273:     assert (ledge == redge);
+    274:     return ledge;
+    275:     }
+
+# 1 0x0042734C in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (250):
+
+    248:         $n;
+    249:         printf("finding place for ar[%d]\n\n", i);
+=>  250:         int loli = find2 (ar, sz, ar[i]);
+    251:         if (i != loli) Zdvig (&(ar[loli]), i - loli + 1);
+    252:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 20:11:46, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 20:11:51
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 273, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x123C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004274BD in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (273):
+
+    271:         }
+    272:     printf ("not found, ledge = %d", ledge);
+=>  273:     assert (ledge == redge);
+    274:     return ledge;
+    275:     }
+
+# 1 0x0042734C in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (250):
+
+    248:         $n;
+    249:         printf("finding place for ar[%d]\n\n", i);
+=>  250:         int fafnir = find2 (ar, sz, ar[i]);
+    251:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    252:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 20:12:59, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 20:13:04
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 277, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x1310 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00427511 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (277):
+
+    275:     printf ("ledge =  %d redge =  %d",ledge, redge);
+    276:     printf ("not found, ledge = %d", ledge);
+=>  277:     assert (ledge == redge);
+    278:     return ledge;
+    279:     }
+
+# 1 0x0042734C in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (250):
+
+    248:         $n;
+    249:         printf("finding place for ar[%d]\n\n", i);
+=>  250:         int fafnir = find2 (ar, sz, ar[i]);
+    251:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    252:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 20:15:38, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 20:15:43
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 277, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x148 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004274F5 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (277):
+
+    275:     printf ("ledge =  %d redge =  %d",ledge, redge);
+    276:     printf ("not found, ledge = %d", ledge);
+=>  277:     assert (ledge == redge);
+    278:     return ledge;
+    279:     }
+
+# 1 0x00427330 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (250):
+
+    248:         $n;
+    249:         printf("finding place for ar[%d]\n\n", i);
+=>  250:         int fafnir = find2 (ar, sz, ar[i]);
+    251:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    252:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     //find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 20:16:28, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 20:16:32
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 277, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x8B0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004274F8 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (277):
+
+    275:     printf ("ledge =  %d redge =  %d",ledge, redge);
+    276:     printf ("not found, ledge = %d", ledge);
+=>  277:     assert (ledge == redge);
+    278:     return ledge;
+    279:     }
+
+# 1 0x00427333 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (250):
+
+    248:         $n;
+    249:         printf("finding place for ar[%d]\n\n", i);
+=>  250:         int fafnir = find2 (ar, i-1, ar[i]);
+    251:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    252:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     //find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 20:24:46, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 20:24:51
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 277, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x1630 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00427506 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (277):
+
+    275:     printf ("ledge =  %d redge =  %d",ledge, redge);
+    276:     printf ("not found, ledge = %d", ledge);
+=>  277:     assert (ledge == redge);
+    278:     return ledge;
+    279:     }
+
+# 1 0x00427333 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (250):
+
+    248:         $n;
+    249:         printf("finding place for ar[%d]\n\n", i);
+=>  250:         int fafnir = find2 (ar, i-1, ar[i]);
+    251:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    252:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     //find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 20:30:11, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 20:30:17
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 283, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x10D8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00427616 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (283):
+
+    281:     printf ("!final search range [%d %d)\n",ledge, redge);
+    282:     { $sd; printf ("NOT FOUND"); } printf ("         NEW PLACE = %d", ledge);
+=>  283:     assert (ledge == redge);
+    284:     return ledge;
+    285:     }
+
+# 1 0x00427330 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (251):
+
+    249:         $n;
+    250:         printf("finding place for ar[%d]\n\n", i);
+=>  251:         int fafnir = find2 (ar, i, ar[i]);
+    252:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    253:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     //find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 21:29:17, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 21:29:21
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 284, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x1214 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00427631 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (284):
+
+    282:     printf ("!final search range [%d %d)\n",ledge, redge);
+    283:     { $sd; printf ("NOT FOUND"); } printf ("         NEW PLACE = %d middle = %d", ledge, midlemidlemidle);
+=>  284:     assert (ledge == redge);
+    285:     return ledge;
+    286:     }
+
+# 1 0x00427330 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (251):
+
+    249:         $n;
+    250:         printf("finding place for ar[%d]\n\n", i);
+=>  251:         int fafnir = find2 (ar, i, ar[i]);
+    252:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    253:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     //find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 21:51:34, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 21:51:39
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 284, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0xA4C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00427631 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (284):
+
+    282:     printf ("!final search range [%d %d)\n",ledge, redge);
+    283:     { $sd; printf ("NOT FOUND"); } printf ("         NEW PLACE = %d middle = %d", ledge, midlemidlemidle);
+=>  284:     assert (ledge == redge);
+    285:     return ledge;
+    286:     }
+
+# 1 0x00427330 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (251):
+
+    249:         $n;
+    250:         printf("finding place for ar[%d]\n\n", i);
+=>  251:         int fafnir = find2 (ar, i, ar[i]);
+    252:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    253:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     //find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 21:55:51, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 21:55:54
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 286, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x1768 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00427680 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (286):
+
+    284:     printf ("!final search range [%d %d)\n",ledge, redge);
+    285:     { $sd; printf ("NOT FOUND"); } printf ("         NEW PLACE = %d middle = %d", ledge, midlemidlemidle);
+=>  286:     assert (ledge == redge);
+    287:     return ledge;
+    288:     }
+
+# 1 0x00427330 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (251):
+
+    249:         $n;
+    250:         printf("finding place for ar[%d]\n\n", i);
+=>  251:         int fafnir = find2 (ar, i, ar[i]);
+    252:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    253:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     //find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 21:58:26, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 21:58:29
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 286, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0xF00 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00427680 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (286):
+
+    284:     printf ("!final search range [%d %d)\n",ledge, redge);
+    285:     { $sd; printf ("NOT FOUND"); } printf ("         NEW PLACE = %d middle = %d", ledge, midlemidlemidle);
+=>  286:     assert (ledge == redge);
+    287:     return ledge;
+    288:     }
+
+# 1 0x00427330 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (251):
+
+    249:         $n;
+    250:         printf("finding place for ar[%d]\n\n", i);
+=>  251:         int fafnir = find2 (ar, i, ar[i]);
+    252:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    253:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     //find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 21:58:48, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 21:58:51
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 286, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x1240 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00427680 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (286):
+
+    284:     printf ("!final search range [%d %d)\n",ledge, redge);
+    285:     { $sd; printf ("NOT FOUND"); } printf ("         NEW PLACE = %d middle = %d", ledge, midlemidlemidle);
+=>  286:     assert (ledge == redge);
+    287:     return ledge;
+    288:     }
+
+# 1 0x00427330 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (251):
+
+    249:         $n;
+    250:         printf("finding place for ar[%d]\n\n", i);
+=>  251:         int fafnir = find2 (ar, i, ar[i]);
+    252:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    253:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     //find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 21:58:48, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 22:06:12
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 286, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x7F8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00427673 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (286):
+
+    284:     printf ("!final search range [%d %d)\n",ledge, redge);
+    285:     { $sd; printf ("NOT FOUND"); } printf ("         NEW PLACE = %d middle = %d", ledge, midlemidlemidle);
+=>  286:     assert (ledge == redge);
+    287:     return ledge;
+    288:     }
+
+# 1 0x00427330 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (251):
+
+    249:         $n;
+    250:         printf("finding place for ar[%d]\n\n", i);
+=>  251:         int fafnir = find2 (ar, i, ar[i]);
+    252:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    253:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     //find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 22:06:15, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 22:06:20
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 274, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 <= ledge && ledge <= midlemidlemidle && midlemidlemidle < redge && redge <= sz".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0xA84 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x004274BC in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (274):
+
+    272:         {
+    273:         midlemidlemidle = (ledge+redge)/2 ;
+=>  274:         assert (0 <= ledge && ledge <= midlemidlemidle && midlemidlemidle < redge && redge <= sz);
+    275: 
+    276:         printf ("search range [%d %d)\n;   mid = %d; ==>", ledge, redge, midlemidlemidle);
+
+# 1 0x00427330 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (251):
+
+    249:         $n;
+    250:         printf("finding place for ar[%d]\n\n", i);
+=>  251:         int fafnir = find2 (ar, i, ar[i]);
+    252:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    253:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     //find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 22:35:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 22:35:46
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.cpp, строка: 286, функция: int find2(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "ledge == redge".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FF2C0 (32-bit), Flags: Cmdre0, Thread: 0x15A4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00427670 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: find2() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (286):
+
+    284:     printf ("!final search range [%d %d)\n",ledge, redge);
+    285:     { $sd; printf ("NOT FOUND"); } printf ("         NEW PLACE = %d middle = %d", ledge, midlemidlemidle);
+=>  286:     assert (ledge == redge);
+    287:     return ledge;
+    288:     }
+
+# 1 0x00427330 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: sort_vstavkoy() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (251):
+
+    249:         $n;
+    250:         printf("finding place for ar[%d]\n\n", i);
+=>  251:         int fafnir = find2 (ar, i, ar[i]);
+    252:         if (i != fafnir) Zdvig (&(ar[fafnir]), i - fafnir + 1);
+    253:         }
+
+# 2 0x00426C56 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/сортировка_массивов.cpp (38):
+
+     36:     //zavicimost_stats_oT_arsz (150);
+     37: 
+=>   38:     sort_vstavkoy (licaped, sizearr(licaped));
+     39: 
+     40:     //find2 (licaped, sizearr(licaped), 6111);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Aug  6 2017 22:40:37, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Aug 06 2017 22:40:42
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\сортировка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------

@@ -1,0 +1,24 @@
+
+#include "TXLib.h"
+
+int main()
+    {
+    txCreateWindow (1500, 1050);
+    $unittest(strlen("abc"), 3);
+    $unittest(strlen("a\0bc"), 3);                                                          
+
+
+                                                                                            1 0000000
+    return 0;                                                                               1 0000001
+    }                                                                                       0 1111110
+
+template <typename T>
+int find (T array[], size_t size, const T& value)
+    {
+    for (int i = 0; i < size; i++)
+        {
+        if (value == array[i])
+            return i;
+        }
+    return -1;
+    }

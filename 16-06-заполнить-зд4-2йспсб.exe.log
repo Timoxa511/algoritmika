@@ -1,0 +1,44 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\16-06-заполнить-зд4-2йспсб.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\16-06-заполнить-зд4-2йспсб.cpp, строка: 45, функция: void curcasefillscndprt(int*, size_t, int),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 < rd && rd < sz/2".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: CMdRe0, Thread: 0x1104 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426D5D in C:\Users\Тимофей\Desktop\информатика\алгоритмика\16-06-заполнить-зд4-2йспсб.exe: curcasefillscndprt() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/16-06-заполнить-зд4-2йспсб.cpp (45):
+
+     43:         {
+     44:         assert (sz/2 <= wrt && wrt < sz);
+=>   45:         assert (0 < rd && rd < sz/2);
+     46: 
+     47:         ar[wrt] = ar[rd] + difbetween2prts;
+
+# 1 0x00426A2F in C:\Users\Тимофей\Desktop\информатика\алгоритмика\16-06-заполнить-зд4-2йспсб.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/16-06-заполнить-зд4-2йспсб.cpp (13):
+
+     11: 
+     12:     fill_progression (ar, sizearr(ar)/2, 1, 2);
+=>   13:     curcasefillscndprt (ar, sizearr(ar), 1) ;
+     14: 
+     15:     $(ar);
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun 16 2017 23:20:36, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 16 2017 23:20:40
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\16-06-заполнить-зд4-2йспсб.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------

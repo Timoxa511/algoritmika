@@ -1,0 +1,1656 @@
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A46 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 33. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x2C4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A46 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (33):
+
+     31:                 }
+     32:             else
+=>   33:             if (*(strc+1) == 'c')
+     34:                 {
+     35:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426982 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (11):
+
+      9: int main()
+     10:     {
+=>   11:     noperintf ("ugol padeniya%c", " lol");
+     12: 
+     13:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:13:00, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:13:04
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (4, 0x00): SIGILL: Попытка выполнить недопустимую операцию. Проверьте указатели на функции. 
+
+Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A46 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 33. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x2C4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A46 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (33):
+
+     31:                 }
+     32:             else
+=>   33:             if (*(strc+1) == 'c')
+     34:                 {
+     35:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426982 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (11):
+
+      9: int main()
+     10:     {
+=>   11:     noperintf ("ugol padeniya%c", " lol");
+     12: 
+     13:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:13:00, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:13:04
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A4A в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 33. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0xAE8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A4A in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (33):
+
+     31:                 }
+     32:             else
+=>   33:             if (*strc == 'c')
+     34:                 {
+     35:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426982 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (11):
+
+      9: int main()
+     10:     {
+=>   11:     noperintf ("ugol padeniya%c", "lol");
+     12: 
+     13:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:17:12, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:17:16
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (4, 0x00): SIGILL: Попытка выполнить недопустимую операцию. Проверьте указатели на функции. 
+
+Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A4A в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 33. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0xAE8 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A4A in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (33):
+
+     31:                 }
+     32:             else
+=>   33:             if (*strc == 'c')
+     34:                 {
+     35:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426982 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (11):
+
+      9: int main()
+     10:     {
+=>   11:     noperintf ("ugol padeniya%c", "lol");
+     12: 
+     13:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:17:12, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:17:16
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A62 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 33. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x11CC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A62 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (33):
+
+     31:                 }
+     32:             else
+=>   33:             if (*strc == 'c')
+     34:                 {
+     35:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x0042699A in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (11):
+
+      9: int main()
+     10:     {
+=>   11:     noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     12: 
+     13:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:19:32, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:19:36
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (4, 0x00): SIGILL: Попытка выполнить недопустимую операцию. Проверьте указатели на функции. 
+
+Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A62 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 33. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x11CC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A62 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (33):
+
+     31:                 }
+     32:             else
+=>   33:             if (*strc == 'c')
+     34:                 {
+     35:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x0042699A in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (11):
+
+      9: int main()
+     10:     {
+=>   11:     noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     12: 
+     13:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:19:32, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:19:36
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A76 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 34. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x870 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A76 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (34):
+
+     32:                 }
+     33:             else
+=>   34:             if (*strc == 'c')
+     35:                 {
+     36:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426982 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (11):
+
+      9: int main()
+     10:     {
+=>   11:     noperintf ("%c", 'l' );
+     12:     noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     13: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:21:02, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:21:06
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (4, 0x00): SIGILL: Попытка выполнить недопустимую операцию. Проверьте указатели на функции. 
+
+Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A76 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 34. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x870 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A76 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (34):
+
+     32:                 }
+     33:             else
+=>   34:             if (*strc == 'c')
+     35:                 {
+     36:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426982 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (11):
+
+      9: int main()
+     10:     {
+=>   11:     noperintf ("%c", 'l' );
+     12:     noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     13: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:21:02, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:21:06
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A76 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 34. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x688 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A76 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (34):
+
+     32:                 }
+     33:             else
+=>   34:             if (*strc == 'c')
+     35:                 {
+     36:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426982 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (11):
+
+      9: int main()
+     10:     {
+=>   11:     noperintf ("%c", 'l' );
+     12:     noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     13: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:21:45, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:21:49
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (4, 0x00): SIGILL: Попытка выполнить недопустимую операцию. Проверьте указатели на функции. 
+
+Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A76 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 34. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x688 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A76 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (34):
+
+     32:                 }
+     33:             else
+=>   34:             if (*strc == 'c')
+     35:                 {
+     36:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426982 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (11):
+
+      9: int main()
+     10:     {
+=>   11:     noperintf ("%c", 'l' );
+     12:     noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     13: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:21:45, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:21:49
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7677D193 в функции wtoi(). Попытка прочесть данные по адресу 0x0000006C. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x1160 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7677D193 in C:\Windows\syswow64\msvcrt.dll: wtoi()
+# 1 0x7678C5FF in C:\Windows\syswow64\msvcrt.dll: printf()
+
+# 2 0x00426AA9 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (41):
+
+     39:             if (*strc == 's')
+     40:                 {
+=>   41:                 printf ("%s", va_arg(arg, char*));
+     42: 
+     43:                 }
+
+# 3 0x004269AE in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     noperintf ("%c", 'l' );
+=>   12:     noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     13: 
+     14:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:23:28, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:23:32
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7677D193 в функции wtoi(). Попытка прочесть данные по адресу 0x0000006C. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x1160 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7677D193 in C:\Windows\syswow64\msvcrt.dll: wtoi()
+# 1 0x7678C5FF in C:\Windows\syswow64\msvcrt.dll: printf()
+
+# 2 0x00426AA9 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (41):
+
+     39:             if (*strc == 's')
+     40:                 {
+=>   41:                 printf ("%s", va_arg(arg, char*));
+     42: 
+     43:                 }
+
+# 3 0x004269AE in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     noperintf ("%c", 'l' );
+=>   12:     noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     13: 
+     14:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:23:28, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:23:32
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7677D193 в функции wtoi(). Попытка прочесть данные по адресу 0x0000006C. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x12A4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7677D193 in C:\Windows\syswow64\msvcrt.dll: wtoi()
+# 1 0x7678C5FF in C:\Windows\syswow64\msvcrt.dll: printf()
+
+# 2 0x00426A8E in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (41):
+
+     39:             if (*strc == 's')
+     40:                 {
+=>   41:                 printf ("%s", va_arg(arg, char*));
+     42: 
+     43:                 }
+
+# 3 0x004269AE in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     noperintf ("%c", 'l' );
+=>   12:     noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     13: 
+     14:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:24:50, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:24:54
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7677D193 в функции wtoi(). Попытка прочесть данные по адресу 0x0000006C. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x12A4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7677D193 in C:\Windows\syswow64\msvcrt.dll: wtoi()
+# 1 0x7678C5FF in C:\Windows\syswow64\msvcrt.dll: printf()
+
+# 2 0x00426A8E in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (41):
+
+     39:             if (*strc == 's')
+     40:                 {
+=>   41:                 printf ("%s", va_arg(arg, char*));
+     42: 
+     43:                 }
+
+# 3 0x004269AE in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     noperintf ("%c", 'l' );
+=>   12:     noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     13: 
+     14:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:24:50, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:24:54
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7677D193 в функции wtoi(). Попытка прочесть данные по адресу 0x0000006C. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0xF3C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7677D193 in C:\Windows\syswow64\msvcrt.dll: wtoi()
+# 1 0x7678C5FF in C:\Windows\syswow64\msvcrt.dll: printf()
+
+# 2 0x00426A7A in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (41):
+
+     39:             if (*strc == 's')
+     40:                 {
+=>   41:                 printf ("%s", va_arg(arg, char*));
+     42: 
+     43:                 }
+
+# 3 0x0042699A in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     13: 
+     14:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:25:13, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:25:17
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7677D193 в функции wtoi(). Попытка прочесть данные по адресу 0x0000006C. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0xF3C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7677D193 in C:\Windows\syswow64\msvcrt.dll: wtoi()
+# 1 0x7678C5FF in C:\Windows\syswow64\msvcrt.dll: printf()
+
+# 2 0x00426A7A in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (41):
+
+     39:             if (*strc == 's')
+     40:                 {
+=>   41:                 printf ("%s", va_arg(arg, char*));
+     42: 
+     43:                 }
+
+# 3 0x0042699A in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     13: 
+     14:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:25:13, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:25:17
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A53 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 35. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x103C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A53 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (35):
+
+     33:                 }
+     34:             else
+=>   35:             if (*strc == 'c')
+     36:                 {
+     37:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 7,9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:30:06, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:30:10
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (4, 0x00): SIGILL: Попытка выполнить недопустимую операцию. Проверьте указатели на функции. 
+
+Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A53 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 35. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x103C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A53 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (35):
+
+     33:                 }
+     34:             else
+=>   35:             if (*strc == 'c')
+     36:                 {
+     37:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 7,9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:30:06, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:30:11
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A53 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 35. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0xE04 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A53 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (35):
+
+     33:                 }
+     34:             else
+=>   35:             if (*strc == 'c')
+     36:                 {
+     37:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'k',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:30:23, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:30:27
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (4, 0x00): SIGILL: Попытка выполнить недопустимую операцию. Проверьте указатели на функции. 
+
+Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A53 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 35. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0xE04 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A53 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (35):
+
+     33:                 }
+     34:             else
+=>   35:             if (*strc == 'c')
+     36:                 {
+     37:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'k',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:30:23, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:30:27
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A53 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 35. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x6A4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A53 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (35):
+
+     33:                 }
+     34:             else
+=>   35:             if (*strc == 'c')
+     36:                 {
+     37:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'k',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:32:11, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:32:15
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (4, 0x00): SIGILL: Попытка выполнить недопустимую операцию. Проверьте указатели на функции. 
+
+Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A53 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 35. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x6A4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A53 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (35):
+
+     33:                 }
+     34:             else
+=>   35:             if (*strc == 'c')
+     36:                 {
+     37:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'k',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:32:11, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:32:15
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A53 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 35. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x10A0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A53 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (35):
+
+     33:                 }
+     34:             else
+=>   35:             if (*strc == 'c')
+     36:                 {
+     37:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'A',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:40:29, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:40:32
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (4, 0x00): SIGILL: Попытка выполнить недопустимую операцию. Проверьте указатели на функции. 
+
+Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A53 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 35. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x10A0 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A53 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (35):
+
+     33:                 }
+     34:             else
+=>   35:             if (*strc == 'c')
+     36:                 {
+     37:                 printf ("%c", va_arg(arg, char));
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'A',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:40:29, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:40:33
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A6A в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 37. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x92C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A6A in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (37):
+
+     35:             if (*strc == 'c')
+     36:                 {
+=>   37:                 printf ("(%s)", strc);
+     38:                 printf ("%c", va_arg(arg, char));
+     39: 
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'A',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:43:04, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:43:08
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (4, 0x00): SIGILL: Попытка выполнить недопустимую операцию. Проверьте указатели на функции. 
+
+Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A6A в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 37. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x92C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A6A in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (37):
+
+     35:             if (*strc == 'c')
+     36:                 {
+=>   37:                 printf ("(%s)", strc);
+     38:                 printf ("%c", va_arg(arg, char));
+     39: 
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'A',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:43:04, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:43:08
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A6E в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 38. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x10DC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A6E in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (38):
+
+     36:             if (*strc == 'c')
+     37:                 {
+=>   38:                 printf ("(%s)", strc);
+     39:                 printf ("%c", va_arg(arg, char));
+     40:                 strc++;
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'A',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:46:31, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:46:35
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (4, 0x00): SIGILL: Попытка выполнить недопустимую операцию. Проверьте указатели на функции. 
+
+Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A6E в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 38. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x10DC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A6E in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (38):
+
+     36:             if (*strc == 'c')
+     37:                 {
+=>   38:                 printf ("(%s)", strc);
+     39:                 printf ("%c", va_arg(arg, char));
+     40:                 strc++;
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'A',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:46:31, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:46:35
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A72 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 40. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x1014 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A72 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (40):
+
+     38:                 {
+     39:                 strc++;
+=>   40:                 printf ("(%s)", strc);
+     41:                 printf ("%c", va_arg(arg, char));
+     42: 
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'A',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:48:11, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:48:15
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (4, 0x00): SIGILL: Попытка выполнить недопустимую операцию. Проверьте указатели на функции. 
+
+Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A72 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 40. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x1014 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A72 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (40):
+
+     38:                 {
+     39:                 strc++;
+=>   40:                 printf ("(%s)", strc);
+     41:                 printf ("%c", va_arg(arg, char));
+     42: 
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'A',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:48:11, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:48:15
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A72 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 40. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0xAE4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A72 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (40):
+
+     38:                 {
+     39:                 strc++;
+=>   40:                 printf ("(%s)", strc);
+     41:                 printf ("%c", va_arg(arg, char));
+     42: 
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'A',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:49:36, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:49:40
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (4, 0x00): SIGILL: Попытка выполнить недопустимую операцию. Проверьте указатели на функции. 
+
+Недопустимая операция.
+
+#1: Исключение EXCEPTION_ILLEGAL_INSTRUCTION (0xC000001D) при выполнении кода по адресу 0x00426A72 в функции noperintf() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp на строке 40. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0xAE4 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426A72 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (40):
+
+     38:                 {
+     39:                 strc++;
+=>   40:                 printf ("(%s)", strc);
+     41:                 printf ("%c", va_arg(arg, char));
+     42: 
+
+# 1 0x00426992 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (12):
+
+     10:     {
+     11:     //noperintf ("%c", 'l' );
+=>   12:     noperintf ("%d %c %d", 57, 'A',9);
+     13:     //noperintf ("%s %c%s kushat xleb po %d publey", " ytki", 'l', "ubyat", 5);
+     14: 
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 21:49:36, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 21:49:40
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7677D193 в функции wtoi(). Попытка прочесть данные по адресу 0x0000006C. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x1284 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7677D193 in C:\Windows\syswow64\msvcrt.dll: wtoi()
+# 1 0x7678C5FF in C:\Windows\syswow64\msvcrt.dll: printf()
+
+# 2 0x00426AA9 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (46):
+
+     44:             if (*strc == 's')
+     45:                 {
+=>   46:                 printf ("%s", va_arg(arg, char*));
+     47:                 strc++;
+     48:                 }
+
+# 3 0x0042699C in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (13):
+
+     11:     //noperintf ("%c", 'l' );
+     12:     //noperintf ("%d %c %d", 57, 'A',9);
+=>   13:     noperintf ("%s %h%s kushat xleb po %lg publey", " ytki", 'l', "ubyat", 4.99);
+     14: 
+     15:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 22:03:39, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 22:03:43
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x7677D193 в функции wtoi(). Попытка прочесть данные по адресу 0x0000006C. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x1284 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x7677D193 in C:\Windows\syswow64\msvcrt.dll: wtoi()
+# 1 0x7678C5FF in C:\Windows\syswow64\msvcrt.dll: printf()
+
+# 2 0x00426AA9 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: noperintf() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (46):
+
+     44:             if (*strc == 's')
+     45:                 {
+=>   46:                 printf ("%s", va_arg(arg, char*));
+     47:                 strc++;
+     48:                 }
+
+# 3 0x0042699C in C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/printf.cpp (13):
+
+     11:     //noperintf ("%c", 'l' );
+     12:     //noperintf ("%d %c %d", 57, 'A',9);
+=>   13:     noperintf ("%s %h%s kushat xleb po %lg publey", " ytki", 'l', "ubyat", 4.99);
+     14: 
+     15:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  4 2017 22:03:39, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 04 2017 22:03:43
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\printf.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------

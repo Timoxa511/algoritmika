@@ -1,0 +1,324 @@
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.cpp, строка: 41, функция: void StoopidFill(int*, size_t, size_t),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 < i - LofOr && i - LofOr < arsize".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x9AC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426CF2 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: StoopidFill() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (41):
+
+     39:             {
+     40:             assert(i < arsize);
+=>   41:             assert(0 < i - LofOr && i - LofOr < arsize);
+     42:             ar[i] = ar[i-LofOr];
+     43:             }
+
+# 1 0x004269F1 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (10):
+
+      8:     {
+      9:     int ar [30] = {1,2,3,2};
+=>   10:     StoopidFill (ar, sizearr(ar), 4);
+     11:     PrintfArray (ar, sizearr(ar));
+     12:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  1 2017 20:54:14, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 01 2017 20:54:19
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.cpp, строка: 41, функция: void StoopidFill(int*, size_t, size_t),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 < i - LofOr && i - LofOr < arsize".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0xADC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426CF2 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: StoopidFill() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (41):
+
+     39:             {
+     40:             assert(i < arsize);
+=>   41:             assert(0 < i - LofOr && i - LofOr < arsize);
+     42:             ar[i] = ar[i-LofOr];
+     43:             }
+
+# 1 0x004269F1 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (10):
+
+      8:     {
+      9:     int ar [30] = {1,2,3,2};
+=>   10:     StoopidFill (ar, sizearr(ar), 4);
+     11:     PrintfArray (ar, sizearr(ar));
+     12:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  1 2017 20:55:27, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 01 2017 20:55:31
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe, файл: C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.cpp, строка: 41, функция: void StoopidFill(int*, size_t, size_t),
+
+Сообщение: ВНЕЗАПНО: Логическая ошибка: Неверно, что "0 < i - LofOr && i - LofOr < arsize".
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x1070 (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426D3E in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: StoopidFill() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (41):
+
+     39:             {
+     40:             assert($(i) < arsize);
+=>   41:             assert(0 < i - LofOr && i - LofOr < arsize);
+     42:             ar[i] = ar[i-LofOr];
+     43:             }
+
+# 1 0x004269F1 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (10):
+
+      8:     {
+      9:     int ar [30] = {1,2,3,2};
+=>   10:     StoopidFill (ar, sizearr(ar), 4);
+     11:     PrintfArray (ar, sizearr(ar));
+     12:     }
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  1 2017 20:57:17, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 01 2017 20:57:21
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042701D в функции AnotherFillWDNofV() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp на строке 66. Попытка прочесть данные по адресу NULL. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x95C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042701D in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: AnotherFillWDNofV() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (66):
+
+     64:         {
+     65:         assert(i < LofOr);
+=>   66:         ar[i] = va_arg(arg, int);
+     67:         }
+     68:     va_end(arg);
+
+# 1 0x00426A09 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (10):
+
+      8:     {
+      9:     int ar [30] = {1,2,3,2};
+=>   10:     AnotherFillWDNofV (ar, sizearr(ar), 4, 1, 3, 7);
+     11: 
+     12:     PrintfArray (ar, sizearr(ar));
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  1 2017 21:50:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 01 2017 21:50:45
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x0042701D в функции AnotherFillWDNofV() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp на строке 66. Попытка прочесть данные по адресу NULL. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x95C (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x0042701D in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: AnotherFillWDNofV() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (66):
+
+     64:         {
+     65:         assert(i < LofOr);
+=>   66:         ar[i] = va_arg(arg, int);
+     67:         }
+     68:     va_end(arg);
+
+# 1 0x00426A09 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (10):
+
+      8:     {
+      9:     int ar [30] = {1,2,3,2};
+=>   10:     AnotherFillWDNofV (ar, sizearr(ar), 4, 1, 3, 7);
+     11: 
+     12:     PrintfArray (ar, sizearr(ar));
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  1 2017 21:50:41, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 01 2017 21:50:46
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib предупреждает:
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe,
+
+ВНЕЗАПНО: Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00426FFD в функции AnotherFillWDNofV() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp на строке 66. Попытка прочесть данные по адресу NULL. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+#1: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x5DC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426FFD in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: AnotherFillWDNofV() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (66):
+
+     64:         {
+     65:         assert(i < LofOr);
+=>   66:         ar[i] = va_arg(arg, int);
+     67:         }
+     68:     va_end(arg);
+
+# 1 0x004269E9 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (10):
+
+      8:     {
+      9:     int ar [30] = {};
+=>   10:     AnotherFillWDNofV (ar, sizearr(ar), 4, 1, 3, 7);
+     11: 
+     12:     PrintfArray (ar, sizearr(ar));
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  1 2017 21:50:53, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 01 2017 21:50:57
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
+
+--------------------------------------------------
+TXLib соболезнует...
+
+Программа: C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe,
+
+ВНЕЗАПНО: signal (11, 0x00): SIGSEGV: Доступ по неверному указателю. Ставьте ассерты! 
+
+Нарушение доступа к памяти.
+
+#1: Исключение EXCEPTION_ACCESS_VIOLATION (0xC0000005) при выполнении кода по адресу 0x00426FFD в функции AnotherFillWDNofV() в файле C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp на строке 66. Попытка прочесть данные по адресу NULL. Спасибо _txVectoredExceptionHandler(), что сообщил. Люблю его <3
+
+С помощью функции signal() вы можете сами обработать эту ошибку.
+
+#2: TXLib [Ver: 00173a, Rev: 105], Instance: 0x004FE2BC (32-bit), Flags: Cmdre0, Thread: 0x5DC (Main). 
+
+--------------------------------------------------
+Стек вызовов:
+
+# 0 0x00426FFD in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: AnotherFillWDNofV() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (66):
+
+     64:         {
+     65:         assert(i < LofOr);
+=>   66:         ar[i] = va_arg(arg, int);
+     67:         }
+     68:     va_end(arg);
+
+# 1 0x004269E9 in C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe: main() at C:/Users/Тимофей/Desktop/информатика/алгоритмика/заполнялка_массивов.cpp (10):
+
+      8:     {
+      9:     int ar [30] = {};
+=>   10:     AnotherFillWDNofV (ar, sizearr(ar), 4, 1, 3, 7);
+     11: 
+     12:     PrintfArray (ar, sizearr(ar));
+
+--------------------------------------------------
+Developed with:
+
+The Dumb Artist Library (TX Library) - TXLib [Ver: 00173a, Rev: 105]
+Copyright (C) Ded (Ilya Dedinsky, http://txlib.ru) <mail@txlib.ru>
+See license on: http://txlib.ru
+
+TXLib file:	C:\Program Files (x86)\TX\TXLib.h
+Compiled:	Jun  1 2017 21:50:53, GNU g++ 4.8.1, std=201103L, MinGW Runtime 3.20, 32-bit, DEBUG
+Started:	Jun 01 2017 21:50:57
+
+Run file:	C:\Users\Тимофей\Desktop\информатика\алгоритмика\заполнялка_массивов.exe
+Directory:	C:\Users\Тимофей\Desktop\информатика\алгоритмика
+
+--------------------------------------------------
